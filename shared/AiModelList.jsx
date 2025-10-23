@@ -35,44 +35,44 @@ export default [
       { name: "DeepSeek R1 0528", premium: true, id: "DeepSeek-R1-0528" },
     ],
   },
-  // {
-  //   model: "Mistral",
-  //   icon: "/mistral.png",
-  //   premium: true,
-  //   enable: true,
-  //   subModel: [
-  //     { name: "Mistral Medium 2505", premium: true, id: "mistral-medium-2505" },
-  //     { name: "Ministral 3B", premium: false, id: "Ministral-3B" },
-  //   ],
-  // },
-  // {
-  //   model: "Grok",
-  //   icon: "/grok.png",
-  //   premium: true,
-  //   enable: true,
-  //   subModel: [
-  //     { name: "Grok 3 Mini", premium: false, id: "grok-3-mini" },
-  //     { name: "Grok 3", premium: true, id: "grok-3" },
-  //   ],
-  // },
-  // {
-  //   model: "Cohere",
-  //   icon: "/cohere.png",
-  //   premium: true,
-  //   enable: true,
-  //   subModel: [
-  //     { name: "Cohere Command A", premium: false, id: "cohere-command-a" },
-  //     { name: "Cohere Command R 08-2024", premium: false, id: "Cohere-command-r-08-2024" },
-  //   ],
-  // },
-  // {
-  //   model: "Llama",
-  //   icon: "/llama.png",
-  //   premium: true,
-  //   enable: true,
-  //   subModel: [
-  //     { name: "Llama 3.3 70B Instruct", premium: true, id: "Llama-3.3-70B-Instruct" },
-  //     { name: "Llama 4 Scout 17B 16E Instruct", premium: true, id: "Llama-4-Scout-17B-16E-Instruct" },
-  //   ],
-  // },
+  {
+    model: "Mistral",
+    icon: "/mistral.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "Mistral Medium 2505", premium: true, id: "mistral-medium-2505" },
+      { name: "Ministral 3B", premium: false, id: "Ministral-3B" },
+    ],
+  },
+  {
+    model: "Grok",
+    icon: "/grok.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "Grok 3 Mini", premium: false, id: "grok-3-mini" },
+      { name: "Grok 3", premium: true, id: "grok-3" },
+    ],
+  },
+  {
+    model: "Cohere",
+    icon: "/cohere.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "Cohere Command A", premium: false, id: "cohere-command-a" },
+      { name: "Cohere Command R 08-2024", premium: false, id: "Cohere-command-r-08-2024" },
+    ],
+  },
+  {
+    model: "Llama",
+    icon: "/llama.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "Llama 3.3 70B Instruct", premium: true, id: "Llama-3.3-70B-Instruct" },
+      { name: "Llama 4 Scout 17B 16E Instruct", premium: true, id: "Llama-4-Scout-17B-16E-Instruct" },
+    ],
+  },
 ];
